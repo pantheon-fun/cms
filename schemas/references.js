@@ -36,6 +36,12 @@ export default {
       type: 'url',
     },
     {
+      title: 'Ссылка на скрипт яндекс карты',
+      description: 'Можно поменять на: https://yandex.ru/map-constructor/',
+      name: 'ymapScript',
+      type: 'url',
+    },
+    {
       title: 'Ссылка на подробный маршрут',
       description: 'Потом будет заменена отдельной секцией',
       name: 'detailedRouteLink',
