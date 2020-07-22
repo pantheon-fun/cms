@@ -29,11 +29,11 @@ export default () =>
             .title('Sections')
             .items([
               S.listItem()
-                .title('First')
+                .title('Main section')
                 .child(
                   S.editor()
-                    .schemaType('firstSection')
-                    .documentId('firstSection')
+                    .schemaType('mainSection')
+                    .documentId('mainSection')
                 ),
               S.listItem()
                 .title('About us')

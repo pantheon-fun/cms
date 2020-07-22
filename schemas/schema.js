@@ -10,7 +10,7 @@ import pricePlus from './components/price-plus';
 import references from './references';
 import privacyPolicy from './privacy-policy';
 
-import firstSection from './sections/first-section';
+import mainSection from './sections/main-section';
 import aboutUsSection from './sections/about-us-section';
 import gamesSection from './sections/games-section';
 import gallerySection from './sections/gallery-section';
@@ -28,7 +28,7 @@ export default createSchema({
     link,
     qa,
     pricePlus,
-    firstSection,
+    mainSection,
     aboutUsSection,
     gamesSection,
     gallerySection,

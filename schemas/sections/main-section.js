@@ -1,6 +1,6 @@
 export default {
-  title: 'First section',
-  name: 'firstSection',
+  title: 'Main section',
+  name: 'mainSection',
   type: 'document',
   fields: [
     {
