@@ -7,6 +7,7 @@
   "author": "Dmitry Zakharov <dzakh.dev@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "login": "sanity login",
     "start": "sanity start",
     "gql": "sanity graphql deploy",
     "test": "sanity check"
@@ -27,9 +28,11 @@
     "react-dom": "^16.13.1",
     "sanity-plugin-datatable": "^1.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@sanity/cli": "^1.149.18"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DZakh/Pantheon.fun.git"
+    "url": "https://github.com/pantheon-fun/cms"
   }
 }

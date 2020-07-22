@@ -9,11 +9,6 @@ export default {
       type: 'string',
     },
     {
-      title: 'Цена за человека',
-      name: 'pricePerPerson',
-      type: 'number',
-    },
-    {
       title: 'Глобальные плюсы',
       description: '3 штуки',
       name: 'pricePluses',
