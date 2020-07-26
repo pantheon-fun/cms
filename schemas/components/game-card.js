@@ -1,4 +1,4 @@
-export default {
+export const gameCard = {
   title: 'Game card',
   name: 'gameCard',
   type: 'document',

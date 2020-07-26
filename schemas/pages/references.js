@@ -1,4 +1,4 @@
-export default {
+export const references = {
   title: 'References',
   name: 'references',
   type: 'document',

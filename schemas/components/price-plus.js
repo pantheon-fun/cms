@@ -1,4 +1,4 @@
-export default {
+export const pricePlus = {
   title: 'Price plus',
   name: 'pricePlus',
   type: 'document',

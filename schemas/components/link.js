@@ -1,4 +1,4 @@
-export default {
+export const link = {
   title: 'Ссылка',
   name: 'link',
   type: 'document',

@@ -1,4 +1,4 @@
-export default {
+export const aboutUsSection = {
   title: 'About us section',
   name: 'aboutUsSection',
   type: 'document',

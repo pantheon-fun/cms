@@ -1,4 +1,4 @@
-export default {
+export const gallerySection = {
   title: 'Gallery section',
   name: 'gallerySection',
   type: 'document',

@@ -1,4 +1,4 @@
-export default {
+export const qa = {
   title: 'Вопрос ответ',
   name: 'qa',
   type: 'document',

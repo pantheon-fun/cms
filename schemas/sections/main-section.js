@@ -1,4 +1,4 @@
-export default {
+export const mainSection = {
   title: 'Main section',
   name: 'mainSection',
   type: 'document',

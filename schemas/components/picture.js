@@ -1,4 +1,4 @@
-export default {
+export const picture = {
   title: 'Картинка',
   name: 'picture',
   type: 'document',

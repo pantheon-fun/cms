@@ -1,4 +1,4 @@
-export default {
+export const faqSection = {
   title: 'Faq section',
   name: 'faqSection',
   type: 'document',

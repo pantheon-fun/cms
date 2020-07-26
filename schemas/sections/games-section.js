@@ -1,4 +1,4 @@
-export default {
+export const gamesSection = {
   title: 'Games section',
   name: 'gamesSection',
   type: 'document',

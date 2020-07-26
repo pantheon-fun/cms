@@ -1,4 +1,4 @@
-export default {
+export const privacyPolicy = {
   title: 'Privacy Policy',
   name: 'privacyPolicy',
   type: 'document',
