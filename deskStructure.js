@@ -36,6 +36,9 @@ export default () =>
               S.listItem()
                 .title('Price pluses')
                 .child(S.editor().schemaType('priceSection').documentId('priceSection')),
+              S.listItem()
+                .title('Price list')
+                .child(S.editor().schemaType('priceListSection').documentId('priceListSection')),
             ])
         ),
     ]);
