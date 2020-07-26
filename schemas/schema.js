@@ -16,7 +16,6 @@ import gamesSection from './sections/games-section';
 import gallerySection from './sections/gallery-section';
 import faqSection from './sections/faq-section';
 import priceSection from './sections/price-section';
-import priceListSection from './sections/price-list-section';
 
 export default createSchema({
   name: 'mySchema',
@@ -34,6 +33,5 @@ export default createSchema({
     gallerySection,
     faqSection,
     priceSection,
-    priceListSection,
   ]),
 });

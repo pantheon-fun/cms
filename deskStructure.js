@@ -4,23 +4,13 @@ export default () =>
   S.list()
     .title('Content')
     .items([
-      S.listItem()
-        .title('Pictures')
-        .child(S.documentTypeList('picture').title('Pictures')),
+      S.listItem().title('Pictures').child(S.documentTypeList('picture').title('Pictures')),
       S.listItem()
         .title('References')
-        .child(
-          S.editor()
-            .schemaType('references')
-            .documentId('references')
-        ),
+        .child(S.editor().schemaType('references').documentId('references')),
       S.listItem()
         .title('Privacy policy')
-        .child(
-          S.editor()
-            .schemaType('privacyPolicy')
-            .documentId('privacyPolicy')
-        ),
+        .child(S.editor().schemaType('privacyPolicy').documentId('privacyPolicy')),
       S.divider(),
       S.listItem()
         .title('Landing')
@@ -30,53 +20,22 @@ export default () =>
             .items([
               S.listItem()
                 .title('Main section')
-                .child(
-                  S.editor()
-                    .schemaType('mainSection')
-                    .documentId('mainSection')
-                ),
+                .child(S.editor().schemaType('mainSection').documentId('mainSection')),
               S.listItem()
                 .title('About us')
-                .child(
-                  S.editor()
-                    .schemaType('aboutUsSection')
-                    .documentId('aboutUsSection')
-                ),
+                .child(S.editor().schemaType('aboutUsSection').documentId('aboutUsSection')),
               S.listItem()
                 .title('Games')
-                .child(
-                  S.editor()
-                    .schemaType('gamesSection')
-                    .documentId('gamesSection')
-                ),
+                .child(S.editor().schemaType('gamesSection').documentId('gamesSection')),
               S.listItem()
                 .title('Gallery')
-                .child(
-                  S.editor()
-                    .schemaType('gallerySection')
-                    .documentId('gallerySection')
-                ),
+                .child(S.editor().schemaType('gallerySection').documentId('gallerySection')),
               S.listItem()
                 .title('FaQ')
-                .child(
-                  S.editor()
-                    .schemaType('faqSection')
-                    .documentId('faqSection')
-                ),
+                .child(S.editor().schemaType('faqSection').documentId('faqSection')),
               S.listItem()
                 .title('Price pluses')
-                .child(
-                  S.editor()
-                    .schemaType('priceSection')
-                    .documentId('priceSection')
-                ),
-              S.listItem()
-                .title('Price list section')
-                .child(
-                  S.editor()
-                    .schemaType('priceListSection')
-                    .documentId('priceListSection')
-                ),
+                .child(S.editor().schemaType('priceSection').documentId('priceSection')),
             ])
         ),
     ]);
